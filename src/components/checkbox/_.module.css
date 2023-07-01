@@ -1,0 +1,40 @@
+.checkbox {
+  display: none;
+}
+
+.label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+.label::before {
+  content: '';
+  border: 2px solid #ccc;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.label::after {
+  content: '';
+  position: absolute;
+  background-color: turquoise; 
+  width: 15px;
+  height: 15px;
+  left: 2px;
+  top: 2px;
+  box-shadow: 0 0 2px 2px turquoise;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.checkbox:checked + .label:after {
+  opacity: 1;
+}
+
+.checkbox:checked + .label:before {
+  border : none;
+}

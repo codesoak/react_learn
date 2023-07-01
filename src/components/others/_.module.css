@@ -1,0 +1,9 @@
+.date {
+    appearance: none;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    width: 200px;
+}

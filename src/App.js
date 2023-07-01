@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+// import SearchSelect from './components/searchSelect';
+// import Others from './components/others';
+// import Radio from './components/radio';
+import Select from './components/select';
+// import Checkbox from './components/checkbox';
+// import Button from "./components/button";
+// import Input from './components/input';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Others/> */}
+      <Select/>
+      {/* <Input/> */}
+      {/* <Button/> */}
+      {/* <Checkbox/> */}
+      {/* <Radio/> */}
+      {/* <SearchSelect/> */}
     </div>
   );
 }

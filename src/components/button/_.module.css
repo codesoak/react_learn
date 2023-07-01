@@ -1,0 +1,13 @@
+.main {
+    border: none;
+    padding: .2rem 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: turquoise;
+    color: white;
+    cursor: pointer;
+}
+
+.main:hover {
+    background-color: rgb(2, 153, 138);
+}

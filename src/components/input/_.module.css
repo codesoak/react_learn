@@ -1,0 +1,13 @@
+.main {
+    padding: .2rem 1rem;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px 0;
+    background-color: transparent;
+    border-radius: 1rem;
+    color: white;
+    z-index: 5;
+    position: relative;
+}

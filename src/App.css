@@ -1,10 +1,25 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: black;
+  color: white;
+  height: 100vh;
 }
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
