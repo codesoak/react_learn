@@ -14,7 +14,7 @@ const ButtonComponent = () => {
     )
 }
 
-const Button = ({ type, name, size, round, onClick }) => {
+export const Button = ({ type, name, size, round, onClick }) => {
     const styles = {
         backgroundColor: (type === 'primary' && 'turquoise') || (type === 'secondary' && 'grey'),
         fontSize: (size === 'small' && '1rem') || (size === 'medium' && '1.5rem') || (size === 'large' && '2rem'),
