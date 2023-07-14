@@ -4,7 +4,7 @@ import ArrayState from "./ArrayState";
 import ObjectState from "./ObjectState";
 import BooleanState from "./BoolenState";
 
-const Hooks = () => {
+const UseState = () => {
     return (
         <div>
             {/* <Simple/> */}
@@ -16,4 +16,4 @@ const Hooks = () => {
     );
 };
 
-export default Hooks;
+export default UseState;
