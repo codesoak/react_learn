@@ -10,7 +10,10 @@ export const Home = () => {
     }, [productId])
     return (
         <div>
-            <input type='number' onChange={(e) => setProductId(e.target.value)} />
+            <input
+                type='number'
+                onChange={(e) => setProductId(e.target.value)}
+            />
             <h2>{product.title}</h2>
             <img src={product.thumbnail} />
         </div>
